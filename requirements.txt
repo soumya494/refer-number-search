@@ -1,0 +1,67 @@
+python import_csv.py
+
+Sirf ek baar setup karna hoga
+Step 1
+
+GitHub account
+
+Step 2
+
+Render account
+
+Step 3
+
+GitHub se Render connect
+
+Step 4
+
+Deploy
+
+Bas.
+
+Uske baad aapko sirf CSV update karna hoga.
+
+Daily Process
+Google Sheet
+      ↓
+Download CSV
+      ↓
+Upload CSV
+      ↓
+Database Update
+      ↓
+Sab HR Mobile se Search
+Agar aap domain nahi kharidna chahte
+
+Koi problem nahi.
+
+Render free me URL deta hai.
+
+Example:
+
+https://kaamlelo-search.onrender.com
+
+Ye hi HR ko share kar dena.
+
+Main is project me ye bhi add karunga
+📂 CSV Upload page
+🔄 Database replace
+📱 Mobile UI
+⚡ Fast Search
+🔒 Admin upload page (optional)
+Mera suggestion
+
+Abhi GitHub aur Render par deploy karte hain. Isme 20–30 minute lagenge.
+
+Main aapko step-by-step guide karunga:
+
+GitHub account banana (agar nahi hai)
+Project GitHub par upload karna
+Render par deploy karna
+Public URL lena
+Mobile se test karna
+
+Uske baad aapka project duniya me kahin se bhi chalega.
+
+Ek sawal:
+Kya GitHub account pehle se hai? Agar hai, to username batao. Agar nahi hai, to hum sabse pehle GitHub account bana lete hain.

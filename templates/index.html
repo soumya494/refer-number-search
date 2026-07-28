@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Refer Number Search</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<div class="icon">
+
+🔍
+
+</div>
+
+<h1>Check Referral Status</h1>
+
+<p>Search Swiggy Referral Number</p>
+
+<div class="search-box">
+
+<input
+type="text"
+id="mobile"
+maxlength="10"
+placeholder="Enter 10-digit number"
+autocomplete="off"
+autofocus>
+
+<button id="searchBtn">
+
+Check Status
+
+</button>
+
+</div>
+
+<div id="result"></div>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
