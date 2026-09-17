@@ -50,14 +50,9 @@ def search():
 
         # Search mobile number
         cursor.execute(
-            '''
-            SELECT "Data Status"
-            FROM numbers
-            WHERE Mobile = ?
-            LIMIT 1
-            ''',
-            (number,)
-        )
+    'SELECT "Data Status" FROM numbers WHERE Mobile = ? LIMIT 1',
+    (number,)
+)
 
         result = cursor.fetchone()
 
