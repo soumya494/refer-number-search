@@ -1,6 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
 
+/* =========================
+   RESULT SECTION
+========================= */
+
+#result {
+    width: 100%;
+    margin-top: 28px;
+    box-sizing: border-box;
+}
+
+.success-message {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 22px 18px;
+    text-align: center;
+    background: linear-gradient(135deg, #f2fff7, #e9fff1);
+    border: 1px solid #b8e8ca;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 120, 60, 0.08);
+    animation: resultShow 0.3s ease;
+}
+
+.success-message .status-icon {
+    width: 44px;
+    height: 44px;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #dcf8e8;
+    color: #159447;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.success-message .status-title {
+    margin-bottom: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #176b3a;
+}
+
+.success-message .status-text {
+    font-size: 19px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.5;
+}
+
+.not-found-message {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 22px 18px;
+    text-align: center;
+    background: linear-gradient(135deg, #fff5f5, #fffafa);
+    border: 1px solid #ffd0d0;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(180, 0, 0, 0.06);
+    animation: resultShow 0.3s ease;
+}
+
+.not-found-message .status-icon {
+    width: 44px;
+    height: 44px;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ffe5e5;
+    color: #e53935;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.not-found-message .status-title {
+    margin-bottom: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #c62828;
+}
+
+.not-found-message .status-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+@keyframes resultShow {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+</style>
 <head>
 
 <meta charset="UTF-8">
